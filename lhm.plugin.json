@@ -1,0 +1,23 @@
+{
+  "identifier": "pagedigest",
+  "name": "PageDigest — Web Page Summarizer & Structured Extractor",
+  "version": "0.1.0",
+  "description": "Pay-per-call web page summarizer & structured extractor for AI agents. Tool: summarize_url — fetch a public web page and return summary, key points, headings and entities. NOT free: each tool call costs $0.01, paid via the x402 protocol in USD₮0 on X Layer (HTTP 402 challenge on tools/call; initialize and tools/list are open). A free sampling/preview path is available for evaluation before paying.",
+  "author": "SuBai520-QWQ",
+  "authorUrl": "https://github.com/SuBai520-QWQ",
+  "category": "productivity",
+  "homepage": "https://4021-agqz5x3ybel4f5yrdnvpaqbzgi.instabox.tech/mcp",
+  "cloudEndpoint": "https://4021-agqz5x3ybel4f5yrdnvpaqbzgi.instabox.tech/mcp",
+  "tags": ["web", "summarizer", "scraping", "extraction", "x402", "pay-per-call", "structured-data"],
+  "tools": [
+    {
+      "name": "summarize_url",
+      "description": "Fetch a web page URL and return a concise summary, key points, page title/description, headings, and structured entities (named phrases, dates, amounts, links). Pay-per-call via x402 on X Layer. Input: a public http(s) URL.",
+      "inputSchema": {
+        "type": "object",
+        "properties": { "url": { "type": "string", "format": "uri" } },
+        "required": ["url"]
+      }
+    }
+  ]
+}
