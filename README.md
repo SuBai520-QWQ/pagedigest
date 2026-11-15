@@ -22,6 +22,10 @@ Client config:
 
 Health checks need no credentials: `initialize` + `tools/list` are open; only `tools/call` returns 402.
 
+## Examples
+
+Runnable, dependency-free example clients (Node.js and Python) live in [`examples/`](examples/): they perform the `initialize` → `tools/list` → `tools/call` handshake, demonstrate the free sampling preview (`x-sampling: true`), and decode the HTTP 402 x402 payment challenge on the paid path. See [`examples/README.md`](examples/README.md) for expected output and the verified challenge format.
+
 ## Listings
 
 - Official MCP Registry: `io.github.SuBai520-QWQ/pagedigest` (status: active)
