@@ -1,5 +1,7 @@
 # PageDigest — Web Page Summarizer & Structured Extractor
 
+[![PageDigest MCP connector](https://glama.ai/mcp/connectors/io.github.SuBai520-QWQ/pagedigest/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.SuBai520-QWQ/pagedigest)
+
 Pay-per-call web page summarizer & structured extractor for AI agents, exposed as a remote MCP server.
 
 **Tool: `summarize_url`** — fetch a public web page and return a summary, key points, headings and entities (named phrases, dates, amounts, links).
